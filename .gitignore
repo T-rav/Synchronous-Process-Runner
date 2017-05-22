@@ -1,0 +1,6 @@
+**/packages/*
+**/bin/*
+**/obj/*
+*.nupkg
+*.csproj.user
+**/.suo
