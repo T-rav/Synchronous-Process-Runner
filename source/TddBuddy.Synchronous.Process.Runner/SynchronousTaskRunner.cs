@@ -1,11 +1,10 @@
-﻿using TddBuddy.CleanArchitecture.Domain;
-using TddBuddy.CleanArchitecture.Domain.Output;
+﻿using TddBuddy.CleanArchitecture.Domain.Output;
 using TddBuddy.CleanArchitecture.Domain.TOs;
 using TddBuddy.Synchronous.Process.Runner.PipeLineTask;
 
 namespace TddBuddy.Synchronous.Process.Runner
 {
-    public class SynchronousTaskRunner : IAction<string>
+    public class SynchronousTaskRunner : ISynchronousTaskRunner
     {
         private readonly IProcessFactory _processFactory;
         private readonly ProcessPipeLineTask _processPipeLineTask;

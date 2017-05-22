@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddBuddy.Synchronous.Process.Runner", "TddBuddy.Synchronous.Process.Runner\TddBuddy.Synchronous.Process.Runner.csproj", "{55325CC3-B5D6-4898-AD5E-329104FBE173}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddBuddy.Synchronous.Process.Runner.Tests", "TddBuddy.Synchronous.Process.Runner.Tests\TddBuddy.Synchronous.Process.Runner.Tests.csproj", "{9F538D77-6807-4D59-AE9E-C4F4329BD4CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{55325CC3-B5D6-4898-AD5E-329104FBE173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55325CC3-B5D6-4898-AD5E-329104FBE173}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55325CC3-B5D6-4898-AD5E-329104FBE173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F538D77-6807-4D59-AE9E-C4F4329BD4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F538D77-6807-4D59-AE9E-C4F4329BD4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F538D77-6807-4D59-AE9E-C4F4329BD4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F538D77-6807-4D59-AE9E-C4F4329BD4CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

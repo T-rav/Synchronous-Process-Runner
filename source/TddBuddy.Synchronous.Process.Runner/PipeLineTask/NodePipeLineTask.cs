@@ -18,7 +18,6 @@ namespace TddBuddy.Synchronous.Process.Runner.PipeLineTask
 
         public override ProcessStartInfo CommandToExecute()
         {
-            // todo : throw exception if _applicationPath is empty
             var processStartInfo = new ProcessStartInfo
             {
                 FileName = "cmd.exe",
