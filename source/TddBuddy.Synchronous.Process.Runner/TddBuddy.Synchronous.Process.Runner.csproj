@@ -44,8 +44,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="TddBuddy.CleanArchitecture.Domain, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\source\packages\TddBuddy.CleanArchitecture.Domain.DotNet.1.0.5\lib\net461\TddBuddy.CleanArchitecture.Domain.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\TddBuddy.CleanArchitecture.Domain.DotNet.1.0.5\lib\net461\TddBuddy.CleanArchitecture.Domain.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
