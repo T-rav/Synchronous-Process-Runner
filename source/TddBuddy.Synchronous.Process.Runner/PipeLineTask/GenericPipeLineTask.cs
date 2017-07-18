@@ -21,7 +21,7 @@ namespace TddBuddy.Synchronous.Process.Runner.PipeLineTask
             var processStartInfo = new ProcessStartInfo
             {
                 FileName = "cmd.exe",
-                Arguments = $"/C \"{_applicationPath}\" {_arguments}",
+                Arguments = $"/C \"\"{_applicationPath}\" {_arguments}\"",
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 UseShellExecute = false,

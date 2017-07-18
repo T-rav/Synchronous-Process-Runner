@@ -2,9 +2,9 @@ using TddBuddy.Synchronous.Process.Runner.PipeLineTask;
 
 namespace TddBuddy.Synchronous.Process.Runner.Tests
 {
-    public class TestNodePipeLineTask : NodePipeLineTask
+    public class TestGenericPipeLineTask : NodePipeLineTask
     {
-        public TestNodePipeLineTask(string applicationPath, string arguments) : base(applicationPath, arguments)
+        public TestGenericPipeLineTask(string applicationPath, string arguments) : base(applicationPath, arguments)
         {
         }
     }

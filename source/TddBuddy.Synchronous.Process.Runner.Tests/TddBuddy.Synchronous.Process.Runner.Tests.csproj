@@ -48,8 +48,8 @@
     <Compile Include="PipeLineTask\GenericPipeLineTaskTests.cs" />
     <Compile Include="PipeLineTask\NodePipeLineTaskTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestGenericPipeLineTask.cs" />
     <Compile Include="TestNodePipeLineTask.cs" />
+    <Compile Include="TestGenericPipeLineTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
