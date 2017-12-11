@@ -9,5 +9,6 @@ namespace TddBuddy.Synchronous.Process.Runner
         void WaitForExit();
         Task<string> ReadStdOutToEndAsync();
         Task<string> ReadStdErrToEndAsync();
+        void WriteToStdInput(string input);
     }
 }

@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics;
+using System.IO;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace TddBuddy.Synchronous.Process.Runner
@@ -19,8 +21,8 @@ namespace TddBuddy.Synchronous.Process.Runner
 
         public ProcessStartInfo StartInfo
         {
-            get { return _process.StartInfo; }
-            set { _process.StartInfo = value; }
+            get => _process.StartInfo;
+            set => _process.StartInfo = value;
         }
 
         public void Start()
@@ -41,6 +43,20 @@ namespace TddBuddy.Synchronous.Process.Runner
         public Task<string> ReadStdErrToEndAsync()
         {
             return _process.StandardError.ReadToEndAsync();
+        }
+
+        public void WriteToStdInput(string input)
+        {
+            if (input == null)
+            {
+                return;
+            }
+
+            using (var inputStreamWriter = new StreamWriter(_process.StandardInput.BaseStream, new UTF8Encoding(false)))
+            {
+                inputStreamWriter.Write(input);
+                inputStreamWriter.Close();
+            }
         }
     }
 }
