@@ -24,6 +24,7 @@ namespace TddBuddy.Synchronous.Process.Runner.PipeLineTask
                 Arguments = $"/C node \"{_applicationPath}\" {_arguments}",
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
+                RedirectStandardInput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true,
                 StandardErrorEncoding = Encoding.UTF8,
