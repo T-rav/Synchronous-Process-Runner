@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>TddBuddy.Synchronous.Process.Runner</id>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <title>Synchronous Process Runner</title>
     <authors>TddBuddy</authors>
     <owners>StoneAge Technologies</owners>
     <projectUrl>https://github.com/T-rav/Synchronous-Process-Runner</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple framework for synchronously running processes from inside C#. E.g run node to invoke a script that renders a docx report.</description>
-    <releaseNotes>Init Release</releaseNotes>
+    <releaseNotes>Updated GenericPipeLineTask and NodePipeLineTask to redirect their standard input</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>ExternalProcess C#</tags>
   </metadata>
